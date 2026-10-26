@@ -1,61 +1,41 @@
-My First Python and AI Project
+# AI Study Assistant
 
+## Project Overview
+The AI Study Assistant is a beginner Python project designed to answer study questions using a local knowledge base. It demonstrates basic programming, information retrieval, structured JSON responses, and testing.
 
-About This Project
+## Features
+- Answers questions about Python, APIs, AI agents, RAG, and AI safety.
+- Searches a knowledge base using keywords.
+- Returns structured responses containing a status, question, answer, and sources.
+- Handles questions it cannot answer.
+- Includes automated tests using Python's unittest framework.
 
+## Technologies Used
+- Python
+- JSON
+- GitHub
+- Python unittest
 
-This repository contains my beginner Python projects as I learn programming and artificial intelligence.
+## Project Files
+- `app.py` — main application.
+- `knowledge_base.json` — study topics and answers.
+- `test_app.py` — automated tests.
+- `hello.py` — beginner Python practice.
+- `chatbot.py` — a simple rule-based chatbot.
 
+## How It Works
+The user enters a question. The application compares words in the question with keywords in its knowledge base and returns a matching answer when available. If no match is found, it explains that it does not have enough information.
 
-Projects
+## Current Limitations
+This is an early prototype. It uses keyword matching and does not yet connect to a live large language model or external APIs.
 
+## Future Improvements
+- Integrate a large language model through an API.
+- Add more study material.
+- Improve search and retrieval.
+- Expand testing and error handling.
 
-1. Hello World
-
-
-File: hello.py
-
-
-A simple Python program that displays messages on the screen.
-
-
-2. Simple Chatbot
-
-
-File: chatbot.py
-
-
-A beginner chatbot that asks questions and responds to the user's answers.
-
-
-Skills I Am Learning
-
-
-
-
-Python programming
-
-
-User input and output
-
-
-Conditional statements
-
-
-Problem-solving
-
-
-Artificial intelligence fundamentals
-
-
-
-
-About Me
-
-
-I am a beginner learning Python and AI. I am motivated to develop my technical skills and build practical projects.
-
-
-This is a learning project, and I plan to improve it as I gain more knowledge.
+## Learning Goals
+This project helps me develop my Python programming, AI application development, structured data handling, testing, and GitHub skills.
 
 
