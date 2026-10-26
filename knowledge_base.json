@@ -7,7 +7,7 @@
   {
     "topic": "APIs and JSON",
     "keywords": ["api", "apis", "json", "integration"],
-    "answer": "An API allows different software applications to communicate. JSON is a format used to store and exchange structured data."
+    "answer": "An API allows different software applications to communicate. JSON is a format used to exchange structured data."
   },
   {
     "topic": "AI and Generative AI",
@@ -28,5 +28,20 @@
     "topic": "AI Safety",
     "keywords": ["safety", "privacy", "uncertainty", "reliable", "security"],
     "answer": "AI systems should protect private information, be tested for reliability, acknowledge uncertainty, and use human oversight when needed."
+  },
+  {
+    "topic": "Machine Learning",
+    "keywords": ["machine learning", "training data", "model"],
+    "answer": "Machine learning is a branch of AI in which systems learn patterns from data to make predictions or produce outputs."
+  },
+  {
+    "topic": "Prompt Engineering",
+    "keywords": ["prompt", "prompt engineering", "instructions"],
+    "answer": "Prompt engineering means writing clear instructions and providing useful context to guide the output of an AI model."
+  },
+  {
+    "topic": "Git and GitHub",
+    "keywords": ["git", "github", "repository", "version control"],
+    "answer": "Git tracks changes to files and code. GitHub hosts repositories online so developers can store, share, and collaborate on projects."
   }
 ]
