@@ -8,9 +8,7 @@ def answer_question(question, knowledge):
     question_lower = question.lower()
 
     for note in knowledge:
-        keywords = note["keywords"]
-
-        if any(word in question_lower for word in keywords):
+        if any(word in question_lower for word in note["keywords"]):
             return {
                 "status": "success",
                 "question": question,
@@ -29,17 +27,18 @@ def main():
     knowledge = load_knowledge()
 
     print("AI Study Assistant")
-    print("Ask a question, or type 'bye' to exit.")
+    print("Topics include Python, APIs, AI agents, RAG, and AI safety.")
+    print("Type 'help' for help or 'bye' to exit.")
 
     while True:
-        question = input("\nYou: ")
+        question = input("\nYou: ").strip()
 
         if question.lower() == "bye":
             print("Goodbye!")
             break
 
         if question.lower() == "help":
-            print("Ask about Python, APIs, AI agents, RAG, or AI safety.")
+            print("Ask a question about any topic in the knowledge base.")
             continue
 
         result = answer_question(question, knowledge)
