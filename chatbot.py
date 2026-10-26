@@ -1,14 +1,23 @@
-print("Hello! Welcome to my chatbot.")
+print("Hello! I am your learning chatbot.")
+print("I can answer simple questions.")
 
-name = input("What is your name? ")
+while True:
+    question = input(
+        "Ask me something (type 'bye' to exit): "
+    ).lower()
 
-print("Nice to meet you, " + name + "!")
+    if question == "bye":
+        print("Goodbye! Keep learning Python and AI.")
+        break
 
-question = input("Are you interested in learning AI? ")
+    elif "python" in question:
+        print("Python is a programming language.")
 
-if question.lower() == "yes":
-    print("Amazing! Let's learn AI together.")
-else:
-    print("No problem! You can learn at your own pace.")
+    elif "ai" in question or "artificial intelligence" in question:
+        print("AI helps computers perform tasks that usually need human intelligence.")
 
-print("Thank you for chatting with me!")
+    elif "hello" in question or "hi" in question:
+        print("Hello! How can I help you?")
+
+    else:
+        print("I don't know that answer yet. I am still learning!")
