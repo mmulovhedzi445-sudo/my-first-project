@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Python",
+    "keywords": ["python", "programming", "code", "coding"],
+    "answer": "Python is a programming language used to build applications, automate tasks, and develop AI systems."
+  },
+  {
+    "topic": "APIs and JSON",
+    "keywords": ["api", "apis", "json", "integration"],
+    "answer": "An API allows different software applications to communicate. JSON is a format used to store and exchange structured data."
+  },
+  {
+    "topic": "AI and Generative AI",
+    "keywords": ["ai", "artificial intelligence", "generative", "llm", "language model"],
+    "answer": "Artificial intelligence enables computers to perform tasks that normally require human intelligence. Generative AI can create text, images, code, and other content."
+  },
+  {
+    "topic": "AI Agents",
+    "keywords": ["agent", "agents", "tool calling", "automation"],
+    "answer": "An AI agent can use a model, tools, and information to work toward a goal. Traditional automation usually follows predefined rules."
+  },
+  {
+    "topic": "Retrieval-Augmented Generation",
+    "keywords": ["rag", "retrieval", "knowledge base", "search"],
+    "answer": "Retrieval-Augmented Generation, or RAG, retrieves relevant information from a knowledge source to help a system produce more grounded answers."
+  },
+  {
+    "topic": "AI Safety",
+    "keywords": ["safety", "privacy", "uncertainty", "reliable", "security"],
+    "answer": "AI systems should protect private information, be tested for reliability, acknowledge uncertainty, and use human oversight when needed."
+  }
+]
